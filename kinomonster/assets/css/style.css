@@ -1,0 +1,30 @@
+.header {
+    background-color: darkslateblue; 
+    height: 177px;  /*высота дива хедера*/
+    font-size: 0.8em; /*размер шрифта*/
+    margin-left: 0px; /*внешний отступ слева*/
+    margin-right: 0px; /*справа*/ 
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+    margin-left: auto; /*остутп слева и справа автоматически браузером*/
+    margin-right: auto;
+}
+
+.logo {
+    width: 800px;
+    padding-bottom: 40px; /*внутренний оступ снизу*/
+}
+
+.logo h1, .logo h2 {
+    font: normal 300% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1, .logo_text h1 a:hover {
+    padding: 2px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-decoration:  none;
+}
